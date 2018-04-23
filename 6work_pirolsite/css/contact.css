@@ -1,0 +1,149 @@
+.head {
+	font-family: 'Montserrat', sans-serif;
+	border-bottom: 1px solid black;
+	padding-top: 30px; 
+	padding-bottom: 25px;
+}
+.logo_image {
+	display: block;
+}
+.navigation {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	margin-left: 10px;
+	font-weight: bold;
+	font-size: 0.85em;
+}
+.navigation > li a {
+	text-decoration: none;
+	color: #000;
+}
+.navigation > li a:hover {
+	color:#10c9c3;
+}
+
+.title {
+	background: #f6f6f6;
+	padding-bottom: 60px;
+	padding-top: 60px;
+}
+.logo_text {
+	padding-left:0;
+}
+.logo_text__caption {
+	font-weight: bold;
+	font-size: 1.5em;
+	margin-bottom: 20px;
+}
+.logo_text__about {
+	color: #787878;
+	font-size: 0.8em;
+}
+.logo_text__about .cont {
+	display: block;
+	margin-bottom: 10px;
+}
+.logo_text__about .bold_text {
+	color:#000;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+/* CONTACT FORM */
+
+.contact_form__item {
+	width: 100%;
+	margin: auto;
+}
+.name_field {
+	float:left;
+}
+.name_field,
+.email_field {
+	padding: 8px 10px;
+	border:none;
+	width: 47%;
+}
+.email_field {
+	margin:0;
+	float:right;
+}
+.title_field {
+	width: 100%;
+	padding: 8px 10px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border:none;
+}
+.contact_form__all textarea{
+	width: 100%;
+	padding: 8px 10px;
+	outline: none !important;
+	resize: none;
+	border:none;
+}
+input[type="submit"] {
+	margin-top: 30px;
+	padding:12px 30px;
+	background: #10c9c3;
+	color: #fff;
+	font-size: 0.8em;
+	font-weight: bold;
+	border:none;
+}
+
+/* MAP */
+
+.map {
+	padding-top: 30px;
+	padding-bottom: 60px;
+	border-bottom: 1px solid black;
+	background: #f6f6f6;
+}
+.map__input {
+	/* width:100%; */
+	height:450px;
+	background: grey;
+}
+/* FOOTER */
+
+.footer_block{
+	padding-top:60px;
+	padding-bottom: 40px;
+	background: #000;
+	font-size: 0.75em;
+	color: #bcbcbc;
+}
+.design_copiraite {
+	padding-right: 260px;
+}
+.design_copiraite span {
+	font-size: 1.2em;
+	font-weight: bold;
+	display: block;
+	color:#fff;
+}
+.mail_contact{
+	padding-right: 80px;
+}
+.additional_links {
+	display: flex;
+	padding-right: 80px;
+}
+.menu_links {
+	list-style: none;
+	margin-left: 10px;
+}
+.menu_links > li a {
+	text-decoration: none;
+	color: #bcbcbc;
+}
+.contact_links_all {
+	list-style: none;
+	padding-left: 30px;
+}
+.contact_links_all > li a {
+	text-decoration: none;
+	color: #bcbcbc;
+}

@@ -1,0 +1,109 @@
+.head {
+	font-family: 'Montserrat', sans-serif;
+	border-bottom: 1px solid black;
+	padding-top: 30px; 
+	padding-bottom: 25px;
+}
+.logo_image {
+	display: block;
+	/* margin: 25px 0 0 0; */
+}
+.navigation {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	margin-left: 10px;
+	font-weight: bold;
+	font-size: 0.85em;
+}
+.navigation > li a {
+	text-decoration: none;
+	color: #000;
+}
+.navigation > li a:hover {
+	color:#10c9c3;
+}
+.title {
+	border-bottom: 1px solid black;
+	background: #f6f6f6;
+}
+.logo_text {
+	text-align: center;
+	padding-bottom: 60px;
+	padding-top: 60px;
+}
+.logo_text__caption {
+	font-size: 2em;
+	margin-bottom: 20px;
+}
+.logo_text__about {
+	color: #787878;
+	font-size: 0.8em;
+	line-height: 1.9;
+}
+.work_foto {
+	display: flex;
+	margin: 0 auto;
+	padding: 0;
+	flex-wrap: wrap;
+	align-items: center;
+    align-content: center; 
+    justify-content: center;
+}
+.work_foto__item {
+	background: grey;
+	border:1px solid black;
+	width:334px;
+	height: 260px;
+	/* margin: 0 auto; */
+}
+
+.work_foto__item p{
+    display: none;
+    line-height: 260px;
+    text-align: center;
+}
+.work_foto__item:hover p{
+    display: block;
+    background: rgba(33,191,185,0.5);
+    cursor: pointer;
+}
+.footer_block{
+	padding-top:60px;
+	padding-bottom: 40px;
+	background: #000;
+	font-size: 0.75em;
+	color: #bcbcbc;
+}
+.design_copiraite {
+	padding-right: 260px;
+}
+.design_copiraite span {
+	font-size: 1.2em;
+	font-weight: bold;
+	display: block;
+	color:#fff;
+}
+.mail_contact{
+	padding-right: 80px;
+}
+.additional_links {
+	display: flex;
+	padding-right: 80px;
+}
+.menu_links {
+	list-style: none;
+	margin-left: 10px;
+}
+.menu_links > li a {
+	text-decoration: none;
+	color: #bcbcbc;
+}
+.contact_links_all {
+	list-style: none;
+	padding-left: 30px;
+}
+.contact_links_all > li a {
+	text-decoration: none;
+	color: #bcbcbc;
+}

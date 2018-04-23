@@ -1,0 +1,123 @@
+section {
+	font-family: 'Montserrat', sans-serif;
+}
+.head {
+	font-family: 'Montserrat', sans-serif;
+	border-bottom: 1px solid black;
+	padding-top: 30px; 
+	padding-bottom: 25px;
+}
+.logo_image {
+	display: block;
+}
+.navigation {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	margin-left: 10px;
+	font-weight: bold;
+	font-size: 0.85em;
+}
+.navigation > li a {
+	text-decoration: none;
+	color: #000;
+}
+.navigation > li a:hover {
+	color:#10c9c3;
+}
+
+.title {
+	background: #f6f6f6;
+	padding-bottom: 60px;
+	padding-top: 60px;
+	border-bottom: 1px solid black;
+}
+.logo_text {
+	padding-left:0;
+}
+.logo_text__caption {
+	font-weight: bold;
+	font-size: 1.5em;
+	margin-bottom: 20px;
+}
+.logo_text__about {
+	color: #787878;
+	font-size: 0.8em;
+}
+.logo_text__about:last-child{
+	margin-top:30px; 
+	color: #787878;
+	font-size: 0.8em;
+}
+.logo_text__about .cont {
+	display: block;
+	margin-bottom: 10px;
+}
+.logo_text__about .bold_text {
+	color:#000;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+/*BUTTONS SECTION*/
+.btn_of_work {
+	padding-top:30px;
+	padding-bottom: 30px;
+}
+.works {
+	font-size: 0.85em;
+	font-weight: bold;
+}
+.works a {
+	text-decoration: none;
+	color: #000;
+}
+.works a:hover {
+	text-decoration: none; 
+	color: #000;
+}
+.prev_work a {
+	margin-left: 10px;
+}
+.next_work a {
+	margin-right: 10px;
+}
+/* FOOTER */
+.footer_block{
+	padding-top:60px;
+	padding-bottom: 40px;
+	background: #000;
+	font-size: 0.75em;
+	color: #bcbcbc;
+}
+.design_copiraite {
+	padding-right: 260px;
+}
+.design_copiraite span {
+	font-size: 1.2em;
+	font-weight: bold;
+	display: block;
+	color:#fff;
+}
+.mail_contact{
+	padding-right: 80px;
+}
+.additional_links {
+	display: flex;
+	padding-right: 80px;
+}
+.menu_links {
+	list-style: none;
+	margin-left: 10px;
+}
+.menu_links > li a {
+	text-decoration: none;
+	color: #bcbcbc;
+}
+.contact_links_all {
+	list-style: none;
+	padding-left: 30px;
+}
+.contact_links_all > li a {
+	text-decoration: none;
+	color: #bcbcbc;
+}
