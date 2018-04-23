@@ -1,0 +1,123 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: url(bg.jpg) ;
+	background-size: auto;
+
+}
+
+
+.planet {
+
+	/*position: relative;*/
+	position: absolute;
+	top: 100px;
+	left: 450px;
+
+	z-index:1;
+	transform: scale(0.5,0.5);
+	height: 500px;
+	width: 500px;
+	background: url(sprite.png);
+	background-repeat: no-repeat;
+	animation-name: planet-x, planet-y;
+	animation-duration: 3s, 2.5s;
+	animation-timing-function: steps(5), steps(4);
+	animation-iteration-count: infinite, infinite;
+}
+
+@keyframes planet-x {
+	0%{
+	background-position-x:0; 
+	}
+	100% {
+	background-position-x:-2500px; 
+	}
+}
+
+@keyframes planet-y {
+	0%{
+	background-position-y:0; 
+	}
+	100% {
+	background-position-y: -2000px; 
+	}
+}
+
+.moon {
+
+	z-index: 0;
+	height: 60px;
+	width: 60px;
+	background: url(moon.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	position: absolute;
+	top: 310px;
+	left: 620px; 
+	animation-name: mooon;
+	animation-duration: 5s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+
+@keyframes mooon {
+	0%{}
+	24% {
+		z-index: 0;
+	}
+	25% {
+		left: 840px; 
+		top: 310px;
+		z-index: 2;
+	}
+	50% {
+		top: 330px;
+	}
+	74% {
+		z-index: 2;
+	}
+	75% { 
+		top: 310px;
+		left: 500px; 
+		z-index: 0;	
+	}
+	100% { transform: rotate(360deg);}
+	
+	}
+
+
+	.commet {
+	z-index: 0;
+	height: 200px;
+	width: 80px;
+	background: url(meteor.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	position: absolute;
+	top: 0vh;
+	left: 1100px; 
+
+
+
+	animation-name: cometa;
+	animation-duration: 3s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+}
+
+@keyframes cometa{
+	0%{
+		left: 1100px;
+		top: 0vh;
+	}
+	50%{
+		/*left: 510px;*/
+		top: 40vh;
+	}
+	100%{
+		left: 0vh;
+		top: 90vh;
+	}
+}

@@ -1,0 +1,222 @@
+.btn{
+	background: #ff4a4a;
+	display: block;
+	width: 150px;
+	height: 40px;
+	line-height: 40px;
+	color: #fff;
+	font-family: Arial;
+	font-size: 20px;
+	text-transform: capitalize;
+	border-radius: 10px;
+	text-decoration: none;
+	text-align: center;
+	transition:background-color 0.5s;
+
+
+}
+.btn:hover {
+	background: #a51c1c;
+
+}
+/* .block {
+	width: 200px;
+	height: 200px;
+	background:  #ffff00;
+	font-size: 40px;
+	animation-name: square;
+	animation-duration: 4s;
+	animation-timing-function: linear;
+	animation-iteration-count: 2; infinitr
+	border-radius: 50%;
+	line-height: 200px;
+	text-align: center;
+	transition: all 2s linear 1s;
+	border: 1px solid grey;
+	 transition: transform 2s linear; */
+
+
+/* .block:hover {
+	transform: rotate(10deg);
+	transform: scale(2,1);
+	transform: translate(150px, 0) scale(2);
+	border-width: 10px;
+	transform: rotateY(90deg);
+	width: 800px;
+	height: 500px;
+	background: red;
+}
+ */
+/* @keyframes square {
+	0% {
+		margin-left: 0;
+		margin-top: 0;
+		transform: rotate(0);
+	}
+	25% {
+		margin-left: 300px;
+		margin-top: 0;
+		transform: rotate(-90deg);
+	}
+	50% { 
+		margin-left: 300px;
+		margin-top: 200px; 
+		transform: rotate(-180deg);
+	}
+	75% {
+		margin-left: 0;
+		margin-top: 200px;
+		transform: rotate(-270deg);
+	}
+	100% { 
+		margin-left: 0;
+		margin-top: 0;
+		transform: rotate(-360deg);
+	}	
+} */
+/* div{
+	animation-iteration-count: infinite;
+}
+.crcl1 {
+	animation-name: crcl;
+	border-radius: 50%;
+	width:80px;
+	height: 80px;
+	border-top: 5px solid #3f0fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	animation-duration: 2.2s;
+	animation-timing-function: linear;
+	
+}
+
+.crcl2 {
+	animation-name: crcll;
+	border-radius: 50%;
+	width:70px;
+	height: 70px;
+	border-top: 5px solid #ff0000;
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+	animation-duration: 2.1s;
+	animation-timing-function: linear;
+}
+.crcl3 {
+	animation-name: crclll;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	border-top: 5px solid #f3ff0f;
+	animation-duration: 2s;
+	animation-timing-function: linear;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+@keyframes crcl {
+	0% {
+		transform: rotate(0);
+	}
+
+	100% { 
+	
+		transform: rotate(-360deg);
+	}	
+}	
+
+@keyframes crcll {
+	0% {
+		transform: rotate(0);
+	}
+	
+	100% { 
+	
+		transform: rotate(720deg);
+	}	
+}	
+
+@keyframes crclll {
+	0% {
+		transform: rotate(0);
+	}
+	
+	100% { 
+	
+		transform: rotate(-720deg);
+	}	
+} */
+
+
+/* .man {
+	width:184px;
+	height: 325px;
+	background:url(https://cdn.codeandweb.com/blog/2014/11/05/animate-sprites-in-css-with-texturepacker/capguy-walk.png);
+	background-repeat: no-repeat;
+	animation-name: anim;
+	animation-duration: 1s;
+	animation-timing-function: steps(8);
+	animation-iteration-count: infinite;
+}
+
+@keyframes anim {
+	0%{
+		background-position-x: 0;
+	}
+	100% {
+		background-position-x:-1472px;
+	}
+} */
+
+/* .zombi {
+	width: 200px;
+	height: 312px;
+	background:url(http://www.wdrfree.com/public/demos/animatespritekeyframes/walkingdead.png);
+	background-repeat: no-repeat;
+	animation-name: zomb;
+	animation-duration: 1s;
+	animation-timing-function: steps(10);
+	animation-iteration-count: infinite;
+}
+
+
+@keyframes zomb {
+	0%{
+		background-position-x: 0;
+	}
+	100% {
+		background-position-x:-2000px;
+	}
+} */
+
+.mickey {
+	height: 308px;
+	width: 256px;
+	background: url(https://vsync.s3.amazonaws.com/resources/mickey-sprite.png);
+	background-repeat: no-repeat;
+	animation-name: mickey-x, mickey-y;
+	animation-duration: 0.5s, 2.5s;
+	animation-timing-function: steps(8), steps(5);
+	animation-iteration-count: infinite, infinite;
+}
+
+@keyframes mickey-x {
+	0%{
+	background-position-x:0; 
+	}
+	100% {
+	background-position-x:-2048px; 
+	}
+}
+
+@keyframes mickey-y {
+	0%{
+	background-position-y:0; 
+	}
+	100% {
+	background-position-y: -1540px; 
+	}
+}

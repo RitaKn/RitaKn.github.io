@@ -1,0 +1,16 @@
+
+#carousels{
+	position: relative;
+}
+
+.carousel{
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0;
+	transition: opacity 1s; /* Время появления картинки */
+}
+
+.demonstration{
+	opacity: 1;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Task01</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="wrapper">
+		<form action="" method="POST">
+			<input type="text" id="name" placeholder="ПІБ">
+			<input type="text" id="email" placeholder="імейл">
+			<input type="text" id="pass" placeholder="пароль">
+
+			<p>Країна: 
+				<select id="country"></select>
+			</p>
+			<p>Місто: 
+				<select id="city"></select>
+			</p>
+			<textarea id="comment" placeholder="Коментар"></textarea>
+			<input type="submit" id="submit" value=" Підтвердити замовлення ">
+		</form>
+		
+	</div>
+
+	<div class="loader-container">
+		<div class="l-1">
+			<div class="small-1"></div>
+		</div>
+	</div>
+	
+	<div id="results"></div>
+
+
+	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

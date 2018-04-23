@@ -1,0 +1,36 @@
+.list-all {
+	border-radius: 10px;
+	border: 1px solid #b2b9c4;
+	margin: 40px;
+	padding: 20px;
+	width: 270px;
+}
+
+li {
+	margin: 0 auto;
+}
+.list {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.ch {
+	border-right: 1px solid yellow;
+}
+.delet {
+	margin-left: 10px;
+}
+
+input[type="text"] {
+	border: none;
+	border-bottom: 1px solid grey;
+	background-color: transparent;
+	/* outline:none */;
+}
+
+
+.st {
+  text-decoration: line-through;
+}

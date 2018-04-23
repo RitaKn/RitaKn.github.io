@@ -1,0 +1,26 @@
+.head {
+	font-family: 'Montserrat', sans-serif;
+	border-bottom: 1px solid black; 
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+.logo_image {
+	display: block;
+	margin: 0;
+}
+.navigation {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+	margin-left: 10px;
+	font-weight: bold;
+	font-size: 0.85em;
+}
+.navigation > li a {
+	text-decoration: none;
+	color: #000;
+}
+.navigation > li a:hover {
+	color:#10c9c3;
+}

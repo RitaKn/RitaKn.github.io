@@ -1,0 +1,48 @@
+.slider1 {
+   display: inline-block;
+  width: 20px;
+  height: 150px;
+  padding: 0;
+  margin: 30px;
+}
+
+.slider1 input {
+  width: 150px;
+  height: 20px;
+  margin: 0;
+  transform-origin: 75px 75px;
+  transform: rotate(-90deg);
+}
+
+.sizefig {
+	float: left;
+}
+
+.formafig {
+	margin: 30px;
+	margin-left: 10px;
+	float: left;
+  }
+
+  .colorfig {
+    width: 150px;
+  	margin-top:30px;
+  	display: flex;
+  	flex-direction: column;
+  }
+
+  .colorfig p{
+    text-align: center;
+  }
+
+
+.figure {
+  margin-top: 150px;
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+}
+
+.rgbR {
+  display: inline;
+}
